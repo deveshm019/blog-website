@@ -39,7 +39,7 @@ const Login = () => {
   return (
     <section className="login">
       <div className="container">
-        <h2>Sign Up</h2>
+        <h2>Login</h2>
         <form className="form login-form" onSubmit={loginUser}>
           {error && <p className="form-error-message">{error}</p>}
           <input
